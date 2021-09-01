@@ -7,7 +7,6 @@ import useHttp from '../hooks/use-http';
 import Comments from '../components/comments/Comments';
 import HighlightedQuote from '../components/quotes/HighlightedQuote';
 import LoadingSpinner from '../components/UI/LoadingSpinner';
-import NoQuotesFound from '../components/quotes/NoQuotesFound';
 
 const QuoteShow = () => {
   const {
