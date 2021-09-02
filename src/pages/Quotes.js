@@ -41,7 +41,6 @@ const Quotes = (props) => {
 
   return (
     <section>
-      <h1>All Quotes 💬</h1>
       <QuoteList quotes={loadedQuotes} />
     </section>
   );
