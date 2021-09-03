@@ -28,6 +28,9 @@ function App() {
           <Route path='/' exact>
             <Redirect to='/quotes' />
           </Route>
+          <Route path='/react-router-project' exact>
+            <Redirect to='/quotes' />
+          </Route>
           <Route path='/quotes' exact>
             <Quotes />
           </Route>
